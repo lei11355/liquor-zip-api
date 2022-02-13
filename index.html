@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Card Layout Activity</title>
+
+    <!-- Import Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <script src="myFunction.js"></script>
+    <!-- Add a responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <span class="navbar-brand mb-1 h1">Group 9 Search Page</span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Bonus -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Zip Code</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <div class="container">
+      <!-- Create rows and columns to match the given design -->
+      <div class="flex-item">
+       
+          <!-- Add a heading "About Me" -->
+          <h1>Search liquor And Zip Code</h1>
+         
+          
+              <!-- Add an image -->
+              <label>Search for zip code</label>
+              <div><input type="text" id="searchTerm"  /></div>
+              <button onclick="myFunction()">Search!</button>
+              
+            <div id="response-container"></div>
+            <table id="mytable" border=1 ></table>
+            <label>Search for liquor name</label>
+              <div><input type="text" id="liq"  /></div>
+              <button onclick="myFunction2()">Search!</button>
+              <div id="response-container2"></div>
+        <!-- Add a Card -->
+      
+      </div>
+    
+  </body>
+</html>
