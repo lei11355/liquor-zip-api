@@ -1,2 +1,1 @@
-type zip code in the first input
-type rum or gin or vodka in the second input
+The project, entitled "Search Liquor And Zip Code", was designed to input a zip code to provide a location with parameters of: post code; country; country abbreviation; places. Secondarily, the goal would be to use that input information and display liquor image.  The program uses two server-side APIs (1) https://api.zippopotam.us/ and (2) https://thecocktaildb.com/api/json/v1/1/search.php . The project utilizes CDN Bootstrap, and jquery.
